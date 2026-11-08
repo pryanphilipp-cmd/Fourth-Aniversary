@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 4th Anniversary</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Dynamic Background -->
+    <div id="bg-overlay"></div>
+
+    <!-- Floating Particles -->
+    <div class="floating-container">
+        <div class="particle" style="left: 15%; animation-duration: 15s; width: 80px; height: 80px;"></div>
+        <div class="particle" style="left: 45%; animation-duration: 20s; width: 120px; height: 120px;"></div>
+        <div class="particle" style="left: 75%; animation-duration: 12s; width: 60px; height: 60px;"></div>
+    </div>
+
+    <!-- INTRO SCREEN -->
+    <div id="intro-screen">
+        <div class="glass-card intro-card">
+            <h2 class="cursive intro-title">A Special Message</h2>
+            <p class="intro-sub">For my favorite person.</p>
+            <button id="open-btn" class="modern-btn">Open Letters</button>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main-content" class="hidden">
+        
+        <header class="main-header">
+            <h1 class="cursive title">Happy 4th Anniversary</h1>
+            <h2 class="subtitle">My Love</h2>
+        </header>
+
+        <!-- Message Section -->
+        <section class="letter-section">
+            <div class="glass-card modern-paper">
+                <h3 class="cursive paper-heading">To my one and only,</h3>
+                <p>It's kind of amazing how 4 years have already passed since our journey started on November 25, 2022. Parang kailan lang nung nagsimula ang lahat, pero ngayon, apat na taon na tayong gumagawa ng magagandang alaala. Happy 4th Anniversary, My Love! ❤️
+
+Four years. Four beautiful years of loving you, learning about you, growing with you, and creating memories that I will always treasure.
+
+I know our journey hasn't always been perfect. We've had our misunderstandings, difficult days, and moments when things weren't easy. But through everything, one thing remains the same: I'm still grateful that I get to call you mine.
+
+Thank you for being part of my life, for the little things you do, for the smiles you bring, and for all the memories we've made together. You may not realize it, but you make my ordinary days feel special just by being in them.
+
+If I could go back to the day we first met, I would still choose you. And if I could make one wish for our future, it would be to have more years, more adventures, more laughter, and more beautiful memories with you.
+
+I don't promise that every day will be perfect, but I promise to keep choosing us, to keep learning how to love you better, and to appreciate every moment we share.
+
+Four years down, and I still want a lifetime with you.
+
+I love you so much, my love. Happy 4th Anniversary! Here's to our story and all the chapters we have yet to write. ❤️</p>
+                <p class="signature">Love always,<br><span class="cursive sig-name">Ryan Philipp</span></p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <h2 class="cursive gallery-title">Our Gallery</h2>
+            <p class="gallery-instruction">(Tap a photo to set it as our background)</p>
+            
+            <div class="gallery-container">
+                <div class="modern-polaroid"><img src="./20222.jpg" alt="Pic"><div class="caption">Nov 25, 2022</div></div>
+                <div class="modern-polaroid"><img src="./20232.jpg" alt="Pic"><div class="caption">Cutie</div></div>
+                <div class="modern-polaroid"><img src="./3.jpg" alt="Pic"><div class="caption">Best Memories</div></div>
+                <div class="modern-polaroid"><img src="./may2025.jpg" alt="Pic"><div class="caption">Always You</div></div>
+                <div class="modern-polaroid"><img src="./2023.jpg" alt="Pic"><div class="caption">Travel buddies</div></div>
+                <div class="modern-polaroid"><img src="./20221.jpg" alt="Pic"><div class="caption">Sweet</div></div>
+                <div class="modern-polaroid"><img src="./2022.jpg" alt="Pic"><div class="caption">My comfort</div></div>
+                <div class="modern-polaroid"><img src="./eat.jpg" alt="Pic"><div class="caption">Food trip</div></div>
+                <div class="modern-polaroid"><img src="./20231.jpg" alt="Pic"><div class="caption">I love you</div></div>
+                <div class="modern-polaroid"><img src="./2.jpg" alt="Pic"><div class="caption">4 Years</div></div>
+            </div>
+        </section>
+
+        <!-- Cupid Game Section -->
+        <section class="games-section">
+            <div class="glass-card game-box">
+                <h3 class="cursive game-title">Cupid's Arrow 🏹</h3>
+                <p class="game-desc">Tulungan si Kupido na tamaan ang 10 puso para may lumabas na surprise!</p>
+                
+                <div id="game-area" class="modern-game-area">
+                    <p id="score-text">Puso: <span id="score">0</span> / 10</p>
+                </div>
+
+                <div id="surprise-container" class="hidden">
+                    <h3 class="cursive surprise-heading">Our Special Memory 💖</h3>
+                    <img src="./kain.jpg" alt="Surprise" class="surprise-media">
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
